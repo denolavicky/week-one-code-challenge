@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+* {
+    padding: 0%;
+    box-sizing: border-box;
+    margin: 0%;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-image: url(Images/bg-intro-desktop.png);
+    background-color: hsl(0, 100%, 74%);
+    color: #ffffff;
+    box-sizing: border-box;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+
+}
+
+.forms-container {
+    width: 40%;
+
+
+}
+
+.forms {
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 10px;
+}
+
+.intro-container {
+    color: #ffffff;
+    width: 40%;
+    padding: 5rem;
+}
+
+h1 {
+    font-size: 3rem;
+    line-height: 3.5rem;
+}
+
+.text {
+    margin: 1.5rem 0rem;
+}
+
+.details {
+    padding: 0.5rem 0rem;
+
+}
+
+.trail {
+    width: 100%;
+    padding: 1rem 1rem;
+    border-radius: 4px;
+    border: 1px solid #ececec;
+}
+
+.trail:focus {
+    border-color: hsl(248, 32%, 49%);
+}
+
+.trial-btn {
+    background-color: hsl(154, 59%, 51%);
+    color: #ffffff;
+    width: 100%;
+    padding: 1rem 0.7rem;
+    margin: 1.5rem 0rem;
+    border-radius: 4px;
+    border: none;
+    font-weight: 700;
+}
+
+.free-btn {
+    background-color: hsl(248, 32%, 49%);
+    color: #ffffff;
+    width: 100%;
+    padding: 1rem 0.7rem;
+    margin: 0rem 0rem 1.3rem 0rem;
+    border-radius: 4px;
+    border: none;
+
+}
+
+.first-btn {
+    font-weight: 700;
+}
+
+.text-color {
+    color: hsl(246, 25%, 77%);
+    font-size: 12px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: hsl(0, 100%, 74%);
+    font-weight: 700;
+}
+
+@media only screen and (max-width: 375px) {
+    .wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+
+    body {
+        height: auto;
+    }
+
+    .forms-container {
+        width: 80%;
+        border-bottom: 30%;
+    }
+
+    .intro-container {
+        width: 100%;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+        line-height: 2.5rem;
+
+    }
+
+    .text {
+        /* margin: 1rem 0rem; */
+        text-align: center;
+        font-size: 18px;
+        border: 10px;
+
+    }
+
+    .free-btn {
+        background-color: hsl(248, 32%, 49%);
+        color: #ffffff;
+        width: 100%;
+        justify-content: center;
+        padding: 2rem 1.7rem;
+        margin-left: 5px;
+        border-radius: 4px;
+        font-size: 12px;
+        text-align: center;
+        border: none;
+    }
+}
